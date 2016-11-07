@@ -7,6 +7,8 @@
   "logoFile": "assets/bakery/textures/logo.png",
   "parent": "moe_core",
   "requiredMods": [ "moe_core" ],
+  "dependencies": [ "moe_core" ],
+  "useDependencyInformation": true,
   "url": "moreofeverything.org/bakery",
   "updateJSON": "moreofeverything.org/bakery/versions.json",
   "authorList": ["DeadlySandwich", "William Price"]

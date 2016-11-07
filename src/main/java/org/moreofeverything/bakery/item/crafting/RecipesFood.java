@@ -5,7 +5,7 @@ import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import org.moreofeverything.bakery.init.ModItems;
-import org.moreofeverything.bakery.util.CraftingUtils;
+import org.moreofeverything.core.util.CraftingUtils;
 
 public class RecipesFood
 {
