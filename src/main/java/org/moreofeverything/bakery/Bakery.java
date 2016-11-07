@@ -1,6 +1,8 @@
 package org.moreofeverything.bakery;
 
 import org.moreofeverything.bakery.init.ModItems;
+import org.moreofeverything.bakery.recipe.ModRecipes;
+import org.moreofeverything.bakery.init.RemoveRecipes;
 import org.moreofeverything.bakery.item.base.ItemBase;
 import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
@@ -19,10 +21,12 @@ public class Bakery
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
+        RemoveRecipes.remove();
         ModItems.getItems().forEach(GameRegistry::register);
         if (event.getSide() == Side.CLIENT) {
             ModItems.getItems().forEach(ItemBase::initModelsAndVariants);
         }
+        ModRecipes.addRecipes();
     }
 
     @EventHandler
