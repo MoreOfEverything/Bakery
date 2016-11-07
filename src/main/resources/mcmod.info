@@ -2,10 +2,10 @@
   "modid": "bakery",
   "name": "MOE Bakery",
   "description": "MOE Bakery",
-  "version": "1.0.0.0",
+  "version": "1.0",
   "mcversion": "1.10.2",
   "logoFile": "assets/bakery/textures/logo.png",
   "url": "moreofeverything.org/bakery",
-  "updateJSON": "minecraftforge.net/versions.json",
+  "updateJSON": "moreofeverything.org/bakery/versions.json",
   "authorList": ["DeadlySandwich", "William Price"]
 }]
