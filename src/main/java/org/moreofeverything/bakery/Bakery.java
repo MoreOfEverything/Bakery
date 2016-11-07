@@ -1,7 +1,6 @@
 package org.moreofeverything.bakery;
 
-import org.moreofeverything.bakery.init.ModItems;
-import org.moreofeverything.bakery.init.ModRecipes;
+import org.moreofeverything.bakery.init.*;
 import org.moreofeverything.bakery.item.base.ItemBase;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
