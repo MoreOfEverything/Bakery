@@ -10,8 +10,8 @@ import java.util.Collection;
 import java.util.List;
 
 @GameRegistry.ObjectHolder(Bakery.MODID)
-public class ModItems {
-
+public class ModItems
+{
     private static final List<ItemBase> ITEMS = new ArrayList<>();
 
     public static final ItemBase DOUGH = new ItemDough();
@@ -21,11 +21,13 @@ public class ModItems {
 
     private ModItems() {}
 
-    public static Collection<ItemBase> getItems() {
+    public static Collection<ItemBase> getItems()
+    {
         return ITEMS;
     }
 
-    public static void register(ItemBase item) {
+    public static void register(ItemBase item)
+    {
         ITEMS.add(item);
     }
 }
