@@ -18,6 +18,7 @@ public class ModItems
     public static final ItemBase EGG_BOWL = new ItemEggBowl();
     public static final ItemBase FLOUR = new ItemFlour();
     public static final ItemBase MORTAR_AND_PESTLE = new ItemMortarAndPestle();
+    public static final ItemBase MEMBER_BERRIES = new ItemMemberBerries();
 
     private ModItems() {}
 
