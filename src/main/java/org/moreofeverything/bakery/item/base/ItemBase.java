@@ -22,7 +22,8 @@ public class ItemBase extends Item
         ModItems.register(this);
     }
 
-    public void initModelsAndVariants() {
+    public void initModelsAndVariants()
+    {
         ModelLoader.setCustomModelResourceLocation(this, 0, new ModelResourceLocation(getRegistryName().toString()));
     }
 

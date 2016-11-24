@@ -1,0 +1,9 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "moe_bakery:blocks/oven_top",
+    "front": "moe_bakery:blocks/oven_front",
+    "side": "moe_bakery:blocks/oven_side",
+    "down": "moe_bakery:blocks/oven_side"
+  }
+}
