@@ -7,7 +7,6 @@ import org.moreofeverything.bakery.item.base.ItemBase;
 import org.moreofeverything.core.util.BlockUtils;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
@@ -34,11 +33,5 @@ public class Bakery
             ModBlocks.getBlocks().forEach(BlockBase::initModelsAndVariants);
         }
         ModRecipes.addRecipes();
-    }
-
-    @EventHandler
-    public void init(FMLInitializationEvent event)
-    {
-
     }
 }
